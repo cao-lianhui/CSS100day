@@ -10,7 +10,7 @@
 
 ```Less``` 编译：lessc 文件名.less 文件名.css
 
-```Less``` 的使用
+```Less``` 的使用（下面的例子仅供参考）
 
 1、```Less``` 声明变量：
 
@@ -24,23 +24,21 @@ h1{
 2、 ```Less``` 递归实现循环：
 ```
 // @index 作为函数的形参
-.Fun(@index) when ( @index <= 4 ){
-    @top: @index * 2;
-    .slice-@{top}{
-        transform: translateY(40px);
-    }
-    @bottom: @top - 1;
-    .slice-@{bottom}{
-        transform: translateY(-40px);
-    }
-    // 递归调用函数
-    .Fun(@index+1);
+.Func(@index) when (@index <= 8){
+  @nullBase: @index - 1;
+  .slice-@{index}{
+      background-position: @nullBase * -50px 0;
+      // transform: translateY(-40px);
+      opacity: 1;
+  }
+  // 递归调用
+  .Func(@index+1);
 }
-.Fun(1);
+.Func(1);
 
 ```
 
-3、用 ```Less``` 实现继承：
+3、用 ```Less``` 实现样式继承：
 ```
 h1{
    color: white;
