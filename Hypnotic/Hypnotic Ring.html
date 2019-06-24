@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hypnotic Ring</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./Hyp.css">
+    </head>
+    <body>
+        <div class="frame"></div>
+        <script>
+            var frame = document.querySelector('.frame');
+            for(var i = 0; i < 50; i++){
+                var div = document.createElement('div');
+                div.className = 'circle';
+                div.classList.add('circle-' + (i + 1));
+                frame.appendChild(div);
+            }
+        </script>
+    </body>
+</html>
