@@ -8,7 +8,7 @@
 
 ```Less``` 安装：npm i less -g
 
-```Less``` 编译：lessc 文件名.less 文件名.css
+```Less``` 编译：lessc 文件名.less 文件名.css 如：lessc index.less index.css
 
 ```Less``` 的使用（下面的例子仅供参考）
 
