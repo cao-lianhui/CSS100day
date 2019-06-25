@@ -1,8 +1,8 @@
 # CSS100day
 
-本仓库的 css 动画都是在 [100daycss](https://100dayscss.com/) 网站上去练习，完成的。
+本仓库的 CSS 动画都是在 [100daycss](https://100dayscss.com/) 网站上去练习，完成的。
 
-仓库里用的 css ，都是 less 编译完成。
+仓库里用的 CSS ，都是 Less 编译完成。
 
 Less 介绍：Less 是一门 CSS 预处理语言，它扩充了 CSS 语言，增加了诸如变量、混合（mixin）、函数等功能，让 CSS 更易维护、方便制作主题、扩充。
 
