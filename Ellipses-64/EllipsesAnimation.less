@@ -1,0 +1,67 @@
+@radius: 150;
+@numberOfEllipses: 18;
+@closingFactor: 0.6;
+
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #1f91dd;
+    color: #fff;
+}
+.form{
+    position: absolute;
+    width: @radius * 2px;
+    height: @radius * 2px;
+    top: 200px - @radius;
+    left: 200px - @radius;
+}
+.ellipse{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: (@radius - (@radius * @closingFactor) / 2px);
+    width: @radius * @closingFactor * 1px;
+    height: @radius * 2px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+/*
+    ParseError: Unrecognised input in....
+*/
+// 循环实现
+.ellipseFunc(@index) when (@index <= @numberOfEllipses){
+    @nullbase: @index;
+    @degree: 180 / @numberOfEllipses * @nullbase;
+    .ellipse-@{index}{
+        // animation: ~'ellipse-@{index}' 5s ease-in-out infinite;
+        animation: e('ellipse-@{index}') 5s ease-in-out infinite;
+    }
+    @keyframes ~'ellipse-@{index}'{
+        0%{
+            transform: rotate(~'@{degree}deg');
+            border-radius: 50%;
+            border-width: 1px;
+        }
+        50%{
+            transform: rotate(0) scaleX(2 / @closingFactor);
+            border-radius: 0%;
+        }
+        100%{
+            transform: rotate(-1 * @degree + 360deg);
+            border-radius: 50%;
+            border-width: 1px;
+        }
+    }
+    .ellipseFunc(@index + 1);
+}
+.ellipseFunc(1);

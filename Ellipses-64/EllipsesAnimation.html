@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ellipses Animation</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="EllipsesAnimation.css"
+    </head>
+    <body>
+        <div class="frame">
+            <div class="form"></div>
+        </div>
+        <script>
+            var form = document.querySelector('.form');
+            for(var i = 0; i < 18; i++){
+                var div = document.createElement('div');
+                // ellipse ellipse-18
+                div.className = 'ellipse';
+                div.classList.add('ellipse-' + (i + 1));
+                form.appendChild(div);
+            }
+        </script>
+    </body>
+</html>
