@@ -71,6 +71,6 @@ width: (@变量名 + 50) + px;
 width: 50 px
 单位和数字之间会出现空格，width无法生效。
 
-还有就是这几种拼接方式不能替换，否则会报错：ParseError: Unrecognised input in....
+还有就是这几种拼接方式不能相互替换，否则会报错：ParseError: Unrecognised input in....
 ```
 大概先这些，后续接触了会持续更新哦，对文件中代码有更好建议的欢迎 push (*￣︶￣)
