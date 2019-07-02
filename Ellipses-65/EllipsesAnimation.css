@@ -30,9 +30,6 @@
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
 }
-/*
-    ParseError: Unrecognised input in....
-*/
 .ellipse-1 {
   animation: ellipse-1 5s ease-in-out infinite;
 }
