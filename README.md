@@ -12,7 +12,7 @@ Less 编译：lessc 文件名.less 文件名.css 如：lessc index.less index.cs
 
 Less 的使用（下面的例子仅供参考）
 
-1、Less 声明变量：
+#### 1、Less 声明变量：
 
 ```
 @color: white;
@@ -21,7 +21,7 @@ h1{
 }
 ```
 
-2、 Less 递归实现循环：
+#### 2、 Less 递归实现循环：
 ```
 // @index 作为函数的形参
 .Func(@index) when (@index <= 8){
@@ -39,7 +39,7 @@ h1{
 
 ```
 
-3、用 Less 实现样式继承：
+#### 3、用 Less 实现样式继承：
 ```
 h1{
    color: white;
@@ -50,7 +50,7 @@ h2{
    width: 200px;
 }
 ```
-4、Less 字符串，类名，单位拼接方式：
+#### 4、Less 字符串，类名，单位拼接方式：
 ```
 类名拼接：
 .class@{变量名}
