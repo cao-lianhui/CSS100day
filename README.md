@@ -21,6 +21,26 @@ h1{
 }
 ```
 
+#### 2、Less 函数声明：
+
+```
+@fontSize: 24;
+.Func(){
+   color: red;
+   // 字符串拼接
+   font-size: @fontSize * 1px;
+}
+h1{
+   // 调用函数， 导入样式
+   .Func();
+}
+// 编译后
+h1{
+   color: red;
+   font-size: 24px;
+}
+```
+
 #### 2、 Less 递归实现循环：
 ```
 // @index 作为函数的形参
