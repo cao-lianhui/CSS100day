@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3DParasol</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./3DParasol.css">
+    </head>
+    <body>
+        <div class="frame">
+            <div class="parasol">
+                <div class="pole"></div>
+                <div class="shadowPole"></div>
+                <div class="top"></div>
+                <div class="shadowTop">
+                    <div class="shadow"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var topDiv = document.querySelector('.top');
+            var shadow = document.querySelector('.shadow');
+            var appChild = function(num, name, ele, obj){
+                for(var i = 0; i < num; i++){
+                    var element = document.createElement(ele);
+                    element.className = name;
+                    element.classList.add(name + (i + 1));
+                    obj.appendChild(element);
+                }
+            }
+            appChild(12, 'triangle', 'div', topDiv);
+            appChild(12, 'triangle', 'div', shadow);
+        </script>
+    </body>
+</html>

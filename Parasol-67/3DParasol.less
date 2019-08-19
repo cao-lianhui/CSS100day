@@ -1,0 +1,51 @@
+@numberOfTriangles: 12;
+
+.frame{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 400px;
+   height: 400px;
+   margin-top: -200px;
+   margin-left: -200px;
+   border-radius: 2px;
+   box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.1);
+   overflow: hidden;
+   background: #f5ce51;
+   color: #fff;
+}
+
+.parasol{
+   position: absolute;
+   top: 8%;
+   left: 13%;
+   transform-style: preserve-3d;
+   transform: rotateX(70deg) rotateY(-15deg);
+   /*width: 100px;
+   height: 200px;
+   background-color: red;*/
+   .shadowPole{
+        position: absolute;
+        z-index: -1;
+        width: 6px;
+        height: 50px;
+        top: 100px;
+        left: 97px;
+        background-color: black;
+        transform-origin: 50% 0%;
+        transform: translateZ(-150px) rotateZ(-90deg) rotateZ(-15deg);
+        box-shadow: 0 0 2px 1px #ab9038;
+        border-radius: 2px;
+   }
+   .pole{
+        position: absolute;
+        z-index: 2;
+        width: 6px;
+        height: 150px;
+        top: 100px;
+        left: 97px;
+        background: #888;
+        transform-origin: 50% 0;
+        transform: translateZ(-1px) rotateX(-90deg);
+   }
+}
