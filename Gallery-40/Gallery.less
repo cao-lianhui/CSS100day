@@ -1,0 +1,85 @@
+@rows: 3;
+@columns: 3;
+@length: 128;
+@space: 4;
+
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+    background-color: #fff;
+    color: #fff;
+}
+.pics{
+    padding: 2px;
+    .pic{
+        position: relative;
+        float: left;
+        margin: @space / 2px;
+        width: ~'@{length}px';
+        height: ~'@{length}px';
+        cursor: pointer;
+        background: #000;
+        animation: small .5s ease-in-out both;
+        transition: transform .5s ease-in-out, z-index 0s linear .5s;
+
+        &.active{
+            animation: big .5s ease-in-out both;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+            transition: opacity .5s ease-in-out;
+        }
+    }
+    @top: 0%;
+    @left: 0%;
+    @row: 1;
+    @column: 1;
+    @rowArr: 1,1,1,2,2,2,3,3,3;
+    .Func(@index) when (@index <= @rows * @columns) {
+        @row: extract(@rowArr, @index);
+        @column: @index - ((@row - 1) * @columns);
+
+        @top: (@row - 1) / (@rows - 1) * 100%;
+        @left: (@column - 1) / (@columns - 1) * 100%;
+        .pic-@{index}{
+            transform-origin: @left @top;
+        }
+        .Func(@index+1)
+    }
+    .Func(1)
+}
+
+@keyframes big{
+    0%, 1% {
+        transform: scale(1);
+        z-index: 2;
+    }
+    100% {
+        z-index: 2;
+        transform: scale(3.0625);
+    }
+}
+
+@keyframes small{
+    0% {
+        transform: scale(3.0625);
+        z-index: 2;
+    }
+    99% {
+        z-index: 2;
+        transform: scale(1);
+    }
+    100% {
+        z-index: 1;
+    }
+}

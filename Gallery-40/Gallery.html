@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>图片放大动画</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./Gallery.css">
+    </head>
+    <body>
+        <div class="frame">
+            <div class="pics">
+                <div class="pic pic-1"><img src="https://100dayscss.com/codepen/40-1.jpg" alt=""/></div>
+                <div class="pic pic-2"><img src="https://100dayscss.com/codepen/40-2.jpg" alt=""/></div>
+                <div class="pic pic-3"><img src="https://100dayscss.com/codepen/40-3.jpg" alt=""/></div>
+                <div class="pic pic-4"><img src="https://100dayscss.com/codepen/40-4.jpg" alt=""/></div>
+                <div class="pic pic-5"><img src="https://100dayscss.com/codepen/40-5.jpg" alt=""/></div>
+                <div class="pic pic-6"><img src="https://100dayscss.com/codepen/40-6.jpg" alt=""/></div>
+                <div class="pic pic-7"><img src="https://100dayscss.com/codepen/40-7.jpg" alt=""/></div>
+                <div class="pic pic-8"><img src="https://100dayscss.com/codepen/40-8.jpg" alt=""/></div>
+                <div class="pic pic-9"><img src="https://100dayscss.com/codepen/40-9.jpg" alt=""/></div>
+            </div>
+        </div>
+        <script>
+            let pic = document.querySelectorAll('.pic');
+            console.log(pic.length);
+            for(let i = 0; i < pic.length; i++ ){
+                // pic[i].classList.add('away');
+                pic[i].onclick = function(){
+                    if(this.className.indexOf('active') === -1){
+                        this.classList.add('active');
+                        return;
+                    }
+                    this.classList.remove('active');
+                    console.log(this.className);
+                }
+            }
+        </script>
+    </body>
+</html>
