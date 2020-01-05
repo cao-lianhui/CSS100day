@@ -1,0 +1,95 @@
+@numberOfStars: 300;
+@numberOfShootingStars: 100;
+
+.frame{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #fff;
+	color: #fff;
+}
+.stage{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #1d4253;
+	background: -moz-linear-gradient(top, #1d4253 0%, #6bb5c4 100%);
+	background: -webkit-linear-gradient(top, #1d4253 0%, #6bb5c4 100%);
+	background: linear-gradient(top, #1d42553 0%, #6bb5c4 100%);
+	overflow: hidden;
+}
+
+.star{
+    position: absolute;
+	width: 1px;
+	height: 1px;
+	border-radius: 50%;
+	background: #fff;
+}
+@test: 280;
+// 用函数实现星星随机分布
+.showStar (@index) when (@index < @numberOfStars){
+    // less 里 css 类名拼接方式
+	.star-@{index}{
+	    // 随机生成 top 和 left 的值，实现星星随机分布
+		// 注意这里需要用到 js 代码，采用 `` 字符的方式存放 js 代码
+		// 且 less 版本必须要在 3 以下
+		@distance: `Math.round(Math.random() * 2000)`;
+	    top: ~"`Math.round(Math.random() * 600)`px";
+		left: ~"@{distance}px";
+		animation: ~"`Math.round((Math.random()*20+20)/10)`s" flickr ~"`Math.round(Math.random()*20/-10)`s" infinite;
+	}
+	.showStar(@index+1);
+}
+// 函数调用
+.showStar(1);
+
+// 加入流星图
+.shooting-star{
+    position: absolute;
+	top: -60px;
+	width: 120px;
+	height: 2px;
+	background: url(./images/shooting-star.png) center center no-repeat;
+	background-size: 100% 100%;
+	transform: rotate(20deg);
+}
+
+// 用函数实现流星在星空中高度随机分布
+.showShoot (@index) when (@index < @numberOfShootingStars){
+    .shooting-star-@{index}{
+	    // 高度随机分布在 30px - 130px 之间
+	    // top: ~"`Math.random()*100 - 30`px";
+		// left: ~"`Math.random()*1000`px";
+		animation: ~"`Math.round(Math.random()*5+40)`s" shooting-star ~"`Math.round(Math.random()*250)/10`s" infinite;
+	}
+	.showShoot(@index+1);
+}
+.showShoot(1);
+
+// 实现星星在夜空中闪烁的动画
+@keyframes flickr{
+    0%, 100%{
+	    opacity: 1;
+	}
+	50%{
+	    opacity: 0.2;
+	}
+}
+
+// 流星划过星空的动画
+@keyframes shooting-star{
+    0%{
+	    opacity: 1;
+	    transform: translate3d(0,0,0) rotate(20deg);
+	}
+	10%, 100%{
+	    opacity: 0;
+	    transform: translate3d(951px, 264px, 0) rotate(20deg);
+	}
+}

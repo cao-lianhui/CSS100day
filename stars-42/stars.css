@@ -1,0 +1,1850 @@
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+}
+.stage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #1d4253;
+  background: -moz-linear-gradient(top, #1d4253 0%, #6bb5c4 100%);
+  background: -webkit-linear-gradient(top, #1d4253 0%, #6bb5c4 100%);
+  background: linear-gradient(top, #1d42553 3 0%, #6bb5c4 100%);
+  overflow: hidden;
+}
+.star {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: #fff;
+}
+.star-1 {
+  top: 54px;
+  left: 1367px;
+  animation: 4s flickr 0s infinite;
+}
+.star-2 {
+  top: 284px;
+  left: 1242px;
+  animation: 3s flickr -1s infinite;
+}
+.star-3 {
+  top: 426px;
+  left: 1820px;
+  animation: 4s flickr -2s infinite;
+}
+.star-4 {
+  top: 466px;
+  left: 1184px;
+  animation: 3s flickr 0s infinite;
+}
+.star-5 {
+  top: 600px;
+  left: 1424px;
+  animation: 2s flickr -1s infinite;
+}
+.star-6 {
+  top: 292px;
+  left: 348px;
+  animation: 2s flickr -2s infinite;
+}
+.star-7 {
+  top: 242px;
+  left: 739px;
+  animation: 3s flickr -2s infinite;
+}
+.star-8 {
+  top: 151px;
+  left: 818px;
+  animation: 4s flickr -2s infinite;
+}
+.star-9 {
+  top: 562px;
+  left: 720px;
+  animation: 3s flickr -2s infinite;
+}
+.star-10 {
+  top: 426px;
+  left: 1142px;
+  animation: 4s flickr 0s infinite;
+}
+.star-11 {
+  top: 358px;
+  left: 706px;
+  animation: 3s flickr 0s infinite;
+}
+.star-12 {
+  top: 455px;
+  left: 814px;
+  animation: 4s flickr -1s infinite;
+}
+.star-13 {
+  top: 203px;
+  left: 1857px;
+  animation: 3s flickr -2s infinite;
+}
+.star-14 {
+  top: 75px;
+  left: 1485px;
+  animation: 3s flickr -1s infinite;
+}
+.star-15 {
+  top: 227px;
+  left: 1272px;
+  animation: 2s flickr -2s infinite;
+}
+.star-16 {
+  top: 350px;
+  left: 1677px;
+  animation: 4s flickr -2s infinite;
+}
+.star-17 {
+  top: 495px;
+  left: 1742px;
+  animation: 4s flickr 0s infinite;
+}
+.star-18 {
+  top: 35px;
+  left: 1453px;
+  animation: 4s flickr 0s infinite;
+}
+.star-19 {
+  top: 583px;
+  left: 255px;
+  animation: 4s flickr -2s infinite;
+}
+.star-20 {
+  top: 564px;
+  left: 350px;
+  animation: 2s flickr -1s infinite;
+}
+.star-21 {
+  top: 23px;
+  left: 1460px;
+  animation: 2s flickr -2s infinite;
+}
+.star-22 {
+  top: 15px;
+  left: 1306px;
+  animation: 3s flickr -1s infinite;
+}
+.star-23 {
+  top: 594px;
+  left: 864px;
+  animation: 3s flickr -2s infinite;
+}
+.star-24 {
+  top: 193px;
+  left: 1191px;
+  animation: 4s flickr -1s infinite;
+}
+.star-25 {
+  top: 507px;
+  left: 108px;
+  animation: 4s flickr -2s infinite;
+}
+.star-26 {
+  top: 227px;
+  left: 368px;
+  animation: 4s flickr -1s infinite;
+}
+.star-27 {
+  top: 195px;
+  left: 255px;
+  animation: 3s flickr -1s infinite;
+}
+.star-28 {
+  top: 543px;
+  left: 1036px;
+  animation: 3s flickr -2s infinite;
+}
+.star-29 {
+  top: 545px;
+  left: 1328px;
+  animation: 2s flickr -1s infinite;
+}
+.star-30 {
+  top: 320px;
+  left: 1309px;
+  animation: 4s flickr -2s infinite;
+}
+.star-31 {
+  top: 238px;
+  left: 339px;
+  animation: 4s flickr -1s infinite;
+}
+.star-32 {
+  top: 305px;
+  left: 1487px;
+  animation: 2s flickr -1s infinite;
+}
+.star-33 {
+  top: 107px;
+  left: 348px;
+  animation: 3s flickr -1s infinite;
+}
+.star-34 {
+  top: 569px;
+  left: 1685px;
+  animation: 4s flickr -2s infinite;
+}
+.star-35 {
+  top: 361px;
+  left: 222px;
+  animation: 4s flickr -1s infinite;
+}
+.star-36 {
+  top: 149px;
+  left: 273px;
+  animation: 3s flickr 0s infinite;
+}
+.star-37 {
+  top: 313px;
+  left: 1301px;
+  animation: 3s flickr -2s infinite;
+}
+.star-38 {
+  top: 551px;
+  left: 1626px;
+  animation: 3s flickr -2s infinite;
+}
+.star-39 {
+  top: 213px;
+  left: 76px;
+  animation: 3s flickr -2s infinite;
+}
+.star-40 {
+  top: 81px;
+  left: 1262px;
+  animation: 3s flickr 0s infinite;
+}
+.star-41 {
+  top: 218px;
+  left: 1939px;
+  animation: 2s flickr -1s infinite;
+}
+.star-42 {
+  top: 320px;
+  left: 1824px;
+  animation: 2s flickr -1s infinite;
+}
+.star-43 {
+  top: 479px;
+  left: 1906px;
+  animation: 3s flickr -1s infinite;
+}
+.star-44 {
+  top: 414px;
+  left: 1250px;
+  animation: 2s flickr -1s infinite;
+}
+.star-45 {
+  top: 402px;
+  left: 1371px;
+  animation: 4s flickr -2s infinite;
+}
+.star-46 {
+  top: 330px;
+  left: 411px;
+  animation: 3s flickr -1s infinite;
+}
+.star-47 {
+  top: 20px;
+  left: 1891px;
+  animation: 4s flickr -1s infinite;
+}
+.star-48 {
+  top: 493px;
+  left: 328px;
+  animation: 3s flickr -1s infinite;
+}
+.star-49 {
+  top: 117px;
+  left: 623px;
+  animation: 4s flickr -1s infinite;
+}
+.star-50 {
+  top: 391px;
+  left: 1238px;
+  animation: 4s flickr 0s infinite;
+}
+.star-51 {
+  top: 66px;
+  left: 1305px;
+  animation: 3s flickr 0s infinite;
+}
+.star-52 {
+  top: 86px;
+  left: 429px;
+  animation: 3s flickr -2s infinite;
+}
+.star-53 {
+  top: 250px;
+  left: 754px;
+  animation: 2s flickr 0s infinite;
+}
+.star-54 {
+  top: 206px;
+  left: 1910px;
+  animation: 3s flickr -1s infinite;
+}
+.star-55 {
+  top: 499px;
+  left: 203px;
+  animation: 2s flickr 0s infinite;
+}
+.star-56 {
+  top: 268px;
+  left: 552px;
+  animation: 3s flickr -1s infinite;
+}
+.star-57 {
+  top: 167px;
+  left: 1098px;
+  animation: 3s flickr -1s infinite;
+}
+.star-58 {
+  top: 85px;
+  left: 1659px;
+  animation: 3s flickr -1s infinite;
+}
+.star-59 {
+  top: 365px;
+  left: 1394px;
+  animation: 3s flickr 0s infinite;
+}
+.star-60 {
+  top: 523px;
+  left: 1990px;
+  animation: 4s flickr -2s infinite;
+}
+.star-61 {
+  top: 309px;
+  left: 1664px;
+  animation: 2s flickr 0s infinite;
+}
+.star-62 {
+  top: 123px;
+  left: 1861px;
+  animation: 3s flickr -1s infinite;
+}
+.star-63 {
+  top: 390px;
+  left: 1070px;
+  animation: 2s flickr 0s infinite;
+}
+.star-64 {
+  top: 213px;
+  left: 429px;
+  animation: 2s flickr -1s infinite;
+}
+.star-65 {
+  top: 455px;
+  left: 472px;
+  animation: 4s flickr -1s infinite;
+}
+.star-66 {
+  top: 293px;
+  left: 1739px;
+  animation: 3s flickr -2s infinite;
+}
+.star-67 {
+  top: 115px;
+  left: 1304px;
+  animation: 3s flickr -1s infinite;
+}
+.star-68 {
+  top: 347px;
+  left: 892px;
+  animation: 2s flickr -1s infinite;
+}
+.star-69 {
+  top: 297px;
+  left: 1264px;
+  animation: 3s flickr -1s infinite;
+}
+.star-70 {
+  top: 542px;
+  left: 237px;
+  animation: 4s flickr -1s infinite;
+}
+.star-71 {
+  top: 313px;
+  left: 393px;
+  animation: 3s flickr -2s infinite;
+}
+.star-72 {
+  top: 346px;
+  left: 1830px;
+  animation: 2s flickr 0s infinite;
+}
+.star-73 {
+  top: 436px;
+  left: 880px;
+  animation: 3s flickr -2s infinite;
+}
+.star-74 {
+  top: 169px;
+  left: 70px;
+  animation: 3s flickr -2s infinite;
+}
+.star-75 {
+  top: 221px;
+  left: 243px;
+  animation: 2s flickr -2s infinite;
+}
+.star-76 {
+  top: 559px;
+  left: 181px;
+  animation: 4s flickr -1s infinite;
+}
+.star-77 {
+  top: 492px;
+  left: 752px;
+  animation: 2s flickr -2s infinite;
+}
+.star-78 {
+  top: 238px;
+  left: 1753px;
+  animation: 3s flickr -2s infinite;
+}
+.star-79 {
+  top: 418px;
+  left: 1056px;
+  animation: 3s flickr -2s infinite;
+}
+.star-80 {
+  top: 559px;
+  left: 448px;
+  animation: 2s flickr 0s infinite;
+}
+.star-81 {
+  top: 273px;
+  left: 412px;
+  animation: 4s flickr -1s infinite;
+}
+.star-82 {
+  top: 472px;
+  left: 399px;
+  animation: 3s flickr -1s infinite;
+}
+.star-83 {
+  top: 105px;
+  left: 1216px;
+  animation: 3s flickr -2s infinite;
+}
+.star-84 {
+  top: 162px;
+  left: 1894px;
+  animation: 2s flickr 0s infinite;
+}
+.star-85 {
+  top: 176px;
+  left: 1161px;
+  animation: 4s flickr -2s infinite;
+}
+.star-86 {
+  top: 518px;
+  left: 1660px;
+  animation: 2s flickr -1s infinite;
+}
+.star-87 {
+  top: 474px;
+  left: 815px;
+  animation: 4s flickr -1s infinite;
+}
+.star-88 {
+  top: 230px;
+  left: 1726px;
+  animation: 4s flickr -2s infinite;
+}
+.star-89 {
+  top: 348px;
+  left: 257px;
+  animation: 3s flickr 0s infinite;
+}
+.star-90 {
+  top: 43px;
+  left: 161px;
+  animation: 4s flickr -2s infinite;
+}
+.star-91 {
+  top: 287px;
+  left: 808px;
+  animation: 3s flickr -2s infinite;
+}
+.star-92 {
+  top: 36px;
+  left: 27px;
+  animation: 4s flickr -1s infinite;
+}
+.star-93 {
+  top: 581px;
+  left: 1795px;
+  animation: 4s flickr -1s infinite;
+}
+.star-94 {
+  top: 386px;
+  left: 776px;
+  animation: 3s flickr 0s infinite;
+}
+.star-95 {
+  top: 93px;
+  left: 1932px;
+  animation: 4s flickr -1s infinite;
+}
+.star-96 {
+  top: 588px;
+  left: 390px;
+  animation: 2s flickr 0s infinite;
+}
+.star-97 {
+  top: 83px;
+  left: 1551px;
+  animation: 4s flickr 0s infinite;
+}
+.star-98 {
+  top: 129px;
+  left: 1161px;
+  animation: 2s flickr -2s infinite;
+}
+.star-99 {
+  top: 255px;
+  left: 1685px;
+  animation: 4s flickr -1s infinite;
+}
+.star-100 {
+  top: 541px;
+  left: 1991px;
+  animation: 4s flickr 0s infinite;
+}
+.star-101 {
+  top: 228px;
+  left: 1252px;
+  animation: 2s flickr -1s infinite;
+}
+.star-102 {
+  top: 528px;
+  left: 388px;
+  animation: 3s flickr -1s infinite;
+}
+.star-103 {
+  top: 107px;
+  left: 590px;
+  animation: 3s flickr -1s infinite;
+}
+.star-104 {
+  top: 494px;
+  left: 292px;
+  animation: 3s flickr -2s infinite;
+}
+.star-105 {
+  top: 543px;
+  left: 894px;
+  animation: 4s flickr -1s infinite;
+}
+.star-106 {
+  top: 555px;
+  left: 7px;
+  animation: 3s flickr -1s infinite;
+}
+.star-107 {
+  top: 129px;
+  left: 1212px;
+  animation: 4s flickr -2s infinite;
+}
+.star-108 {
+  top: 463px;
+  left: 319px;
+  animation: 4s flickr -1s infinite;
+}
+.star-109 {
+  top: 446px;
+  left: 1316px;
+  animation: 2s flickr -2s infinite;
+}
+.star-110 {
+  top: 414px;
+  left: 1290px;
+  animation: 3s flickr 0s infinite;
+}
+.star-111 {
+  top: 263px;
+  left: 1795px;
+  animation: 4s flickr -1s infinite;
+}
+.star-112 {
+  top: 110px;
+  left: 1378px;
+  animation: 3s flickr -2s infinite;
+}
+.star-113 {
+  top: 226px;
+  left: 1262px;
+  animation: 4s flickr -2s infinite;
+}
+.star-114 {
+  top: 364px;
+  left: 208px;
+  animation: 4s flickr 0s infinite;
+}
+.star-115 {
+  top: 263px;
+  left: 571px;
+  animation: 3s flickr 0s infinite;
+}
+.star-116 {
+  top: 22px;
+  left: 976px;
+  animation: 2s flickr -2s infinite;
+}
+.star-117 {
+  top: 148px;
+  left: 759px;
+  animation: 2s flickr -1s infinite;
+}
+.star-118 {
+  top: 420px;
+  left: 1059px;
+  animation: 3s flickr -1s infinite;
+}
+.star-119 {
+  top: 353px;
+  left: 764px;
+  animation: 3s flickr -2s infinite;
+}
+.star-120 {
+  top: 383px;
+  left: 1622px;
+  animation: 3s flickr -2s infinite;
+}
+.star-121 {
+  top: 51px;
+  left: 945px;
+  animation: 2s flickr -1s infinite;
+}
+.star-122 {
+  top: 291px;
+  left: 1818px;
+  animation: 3s flickr -1s infinite;
+}
+.star-123 {
+  top: 8px;
+  left: 1307px;
+  animation: 4s flickr -1s infinite;
+}
+.star-124 {
+  top: 118px;
+  left: 1156px;
+  animation: 3s flickr -2s infinite;
+}
+.star-125 {
+  top: 252px;
+  left: 438px;
+  animation: 3s flickr 0s infinite;
+}
+.star-126 {
+  top: 206px;
+  left: 627px;
+  animation: 3s flickr -1s infinite;
+}
+.star-127 {
+  top: 232px;
+  left: 898px;
+  animation: 2s flickr -2s infinite;
+}
+.star-128 {
+  top: 29px;
+  left: 1178px;
+  animation: 4s flickr -1s infinite;
+}
+.star-129 {
+  top: 336px;
+  left: 1802px;
+  animation: 4s flickr 0s infinite;
+}
+.star-130 {
+  top: 209px;
+  left: 1478px;
+  animation: 4s flickr -1s infinite;
+}
+.star-131 {
+  top: 448px;
+  left: 612px;
+  animation: 3s flickr -1s infinite;
+}
+.star-132 {
+  top: 407px;
+  left: 58px;
+  animation: 3s flickr 0s infinite;
+}
+.star-133 {
+  top: 7px;
+  left: 135px;
+  animation: 2s flickr -1s infinite;
+}
+.star-134 {
+  top: 57px;
+  left: 684px;
+  animation: 2s flickr 0s infinite;
+}
+.star-135 {
+  top: 167px;
+  left: 835px;
+  animation: 4s flickr 0s infinite;
+}
+.star-136 {
+  top: 576px;
+  left: 554px;
+  animation: 4s flickr -2s infinite;
+}
+.star-137 {
+  top: 264px;
+  left: 966px;
+  animation: 2s flickr -2s infinite;
+}
+.star-138 {
+  top: 327px;
+  left: 1852px;
+  animation: 2s flickr 0s infinite;
+}
+.star-139 {
+  top: 210px;
+  left: 1033px;
+  animation: 2s flickr -1s infinite;
+}
+.star-140 {
+  top: 50px;
+  left: 1006px;
+  animation: 2s flickr -2s infinite;
+}
+.star-141 {
+  top: 67px;
+  left: 1042px;
+  animation: 3s flickr 0s infinite;
+}
+.star-142 {
+  top: 46px;
+  left: 237px;
+  animation: 3s flickr 0s infinite;
+}
+.star-143 {
+  top: 328px;
+  left: 1674px;
+  animation: 4s flickr 0s infinite;
+}
+.star-144 {
+  top: 123px;
+  left: 1012px;
+  animation: 4s flickr -1s infinite;
+}
+.star-145 {
+  top: 490px;
+  left: 1548px;
+  animation: 2s flickr 0s infinite;
+}
+.star-146 {
+  top: 197px;
+  left: 1696px;
+  animation: 3s flickr -2s infinite;
+}
+.star-147 {
+  top: 284px;
+  left: 533px;
+  animation: 2s flickr -2s infinite;
+}
+.star-148 {
+  top: 108px;
+  left: 1867px;
+  animation: 3s flickr 0s infinite;
+}
+.star-149 {
+  top: 339px;
+  left: 114px;
+  animation: 4s flickr -1s infinite;
+}
+.star-150 {
+  top: 474px;
+  left: 953px;
+  animation: 2s flickr -1s infinite;
+}
+.star-151 {
+  top: 544px;
+  left: 583px;
+  animation: 4s flickr 0s infinite;
+}
+.star-152 {
+  top: 121px;
+  left: 373px;
+  animation: 4s flickr 0s infinite;
+}
+.star-153 {
+  top: 481px;
+  left: 1092px;
+  animation: 2s flickr -1s infinite;
+}
+.star-154 {
+  top: 406px;
+  left: 197px;
+  animation: 3s flickr -1s infinite;
+}
+.star-155 {
+  top: 82px;
+  left: 638px;
+  animation: 2s flickr -1s infinite;
+}
+.star-156 {
+  top: 552px;
+  left: 1834px;
+  animation: 3s flickr -1s infinite;
+}
+.star-157 {
+  top: 8px;
+  left: 639px;
+  animation: 4s flickr -1s infinite;
+}
+.star-158 {
+  top: 366px;
+  left: 512px;
+  animation: 3s flickr -2s infinite;
+}
+.star-159 {
+  top: 512px;
+  left: 1921px;
+  animation: 3s flickr -1s infinite;
+}
+.star-160 {
+  top: 65px;
+  left: 458px;
+  animation: 3s flickr -2s infinite;
+}
+.star-161 {
+  top: 348px;
+  left: 641px;
+  animation: 3s flickr 0s infinite;
+}
+.star-162 {
+  top: 546px;
+  left: 786px;
+  animation: 3s flickr -1s infinite;
+}
+.star-163 {
+  top: 359px;
+  left: 1438px;
+  animation: 3s flickr 0s infinite;
+}
+.star-164 {
+  top: 123px;
+  left: 1548px;
+  animation: 3s flickr -1s infinite;
+}
+.star-165 {
+  top: 202px;
+  left: 535px;
+  animation: 4s flickr -2s infinite;
+}
+.star-166 {
+  top: 304px;
+  left: 463px;
+  animation: 4s flickr -2s infinite;
+}
+.star-167 {
+  top: 115px;
+  left: 54px;
+  animation: 4s flickr -1s infinite;
+}
+.star-168 {
+  top: 37px;
+  left: 677px;
+  animation: 3s flickr 0s infinite;
+}
+.star-169 {
+  top: 534px;
+  left: 285px;
+  animation: 4s flickr -2s infinite;
+}
+.star-170 {
+  top: 226px;
+  left: 560px;
+  animation: 2s flickr -1s infinite;
+}
+.star-171 {
+  top: 344px;
+  left: 1417px;
+  animation: 2s flickr 0s infinite;
+}
+.star-172 {
+  top: 161px;
+  left: 1670px;
+  animation: 3s flickr -1s infinite;
+}
+.star-173 {
+  top: 583px;
+  left: 58px;
+  animation: 3s flickr -1s infinite;
+}
+.star-174 {
+  top: 532px;
+  left: 1911px;
+  animation: 3s flickr -2s infinite;
+}
+.star-175 {
+  top: 272px;
+  left: 535px;
+  animation: 2s flickr -1s infinite;
+}
+.star-176 {
+  top: 140px;
+  left: 1177px;
+  animation: 4s flickr -1s infinite;
+}
+.star-177 {
+  top: 540px;
+  left: 1330px;
+  animation: 3s flickr -1s infinite;
+}
+.star-178 {
+  top: 7px;
+  left: 462px;
+  animation: 2s flickr -1s infinite;
+}
+.star-179 {
+  top: 335px;
+  left: 25px;
+  animation: 3s flickr 0s infinite;
+}
+.star-180 {
+  top: 280px;
+  left: 1900px;
+  animation: 3s flickr -2s infinite;
+}
+.star-181 {
+  top: 192px;
+  left: 222px;
+  animation: 4s flickr -1s infinite;
+}
+.star-182 {
+  top: 320px;
+  left: 1326px;
+  animation: 3s flickr -1s infinite;
+}
+.star-183 {
+  top: 474px;
+  left: 1631px;
+  animation: 2s flickr -1s infinite;
+}
+.star-184 {
+  top: 214px;
+  left: 1607px;
+  animation: 3s flickr -1s infinite;
+}
+.star-185 {
+  top: 463px;
+  left: 611px;
+  animation: 4s flickr 0s infinite;
+}
+.star-186 {
+  top: 55px;
+  left: 755px;
+  animation: 2s flickr -2s infinite;
+}
+.star-187 {
+  top: 418px;
+  left: 1906px;
+  animation: 2s flickr -1s infinite;
+}
+.star-188 {
+  top: 184px;
+  left: 1739px;
+  animation: 3s flickr -1s infinite;
+}
+.star-189 {
+  top: 112px;
+  left: 1060px;
+  animation: 2s flickr -1s infinite;
+}
+.star-190 {
+  top: 496px;
+  left: 482px;
+  animation: 3s flickr -1s infinite;
+}
+.star-191 {
+  top: 42px;
+  left: 493px;
+  animation: 2s flickr -2s infinite;
+}
+.star-192 {
+  top: 99px;
+  left: 1498px;
+  animation: 4s flickr -1s infinite;
+}
+.star-193 {
+  top: 388px;
+  left: 1479px;
+  animation: 3s flickr -1s infinite;
+}
+.star-194 {
+  top: 169px;
+  left: 889px;
+  animation: 2s flickr -2s infinite;
+}
+.star-195 {
+  top: 194px;
+  left: 906px;
+  animation: 3s flickr -1s infinite;
+}
+.star-196 {
+  top: 69px;
+  left: 266px;
+  animation: 4s flickr 0s infinite;
+}
+.star-197 {
+  top: 344px;
+  left: 1284px;
+  animation: 4s flickr -1s infinite;
+}
+.star-198 {
+  top: 281px;
+  left: 253px;
+  animation: 2s flickr 0s infinite;
+}
+.star-199 {
+  top: 4px;
+  left: 1px;
+  animation: 3s flickr 0s infinite;
+}
+.star-200 {
+  top: 314px;
+  left: 749px;
+  animation: 3s flickr -1s infinite;
+}
+.star-201 {
+  top: 99px;
+  left: 667px;
+  animation: 3s flickr -1s infinite;
+}
+.star-202 {
+  top: 448px;
+  left: 21px;
+  animation: 3s flickr -2s infinite;
+}
+.star-203 {
+  top: 141px;
+  left: 80px;
+  animation: 2s flickr -1s infinite;
+}
+.star-204 {
+  top: 373px;
+  left: 168px;
+  animation: 4s flickr -2s infinite;
+}
+.star-205 {
+  top: 469px;
+  left: 1560px;
+  animation: 3s flickr -1s infinite;
+}
+.star-206 {
+  top: 74px;
+  left: 1470px;
+  animation: 3s flickr 0s infinite;
+}
+.star-207 {
+  top: 122px;
+  left: 1009px;
+  animation: 2s flickr -1s infinite;
+}
+.star-208 {
+  top: 30px;
+  left: 942px;
+  animation: 3s flickr -2s infinite;
+}
+.star-209 {
+  top: 567px;
+  left: 1351px;
+  animation: 3s flickr -1s infinite;
+}
+.star-210 {
+  top: 131px;
+  left: 1266px;
+  animation: 2s flickr 0s infinite;
+}
+.star-211 {
+  top: 53px;
+  left: 654px;
+  animation: 4s flickr -1s infinite;
+}
+.star-212 {
+  top: 90px;
+  left: 661px;
+  animation: 4s flickr -1s infinite;
+}
+.star-213 {
+  top: 572px;
+  left: 1746px;
+  animation: 3s flickr 0s infinite;
+}
+.star-214 {
+  top: 105px;
+  left: 1765px;
+  animation: 3s flickr -1s infinite;
+}
+.star-215 {
+  top: 28px;
+  left: 385px;
+  animation: 3s flickr -1s infinite;
+}
+.star-216 {
+  top: 131px;
+  left: 1754px;
+  animation: 3s flickr -2s infinite;
+}
+.star-217 {
+  top: 270px;
+  left: 135px;
+  animation: 3s flickr -2s infinite;
+}
+.star-218 {
+  top: 79px;
+  left: 1048px;
+  animation: 4s flickr -2s infinite;
+}
+.star-219 {
+  top: 285px;
+  left: 1407px;
+  animation: 2s flickr -1s infinite;
+}
+.star-220 {
+  top: 585px;
+  left: 1502px;
+  animation: 4s flickr 0s infinite;
+}
+.star-221 {
+  top: 451px;
+  left: 61px;
+  animation: 4s flickr -1s infinite;
+}
+.star-222 {
+  top: 319px;
+  left: 598px;
+  animation: 3s flickr -1s infinite;
+}
+.star-223 {
+  top: 467px;
+  left: 1940px;
+  animation: 4s flickr -2s infinite;
+}
+.star-224 {
+  top: 281px;
+  left: 1055px;
+  animation: 2s flickr -1s infinite;
+}
+.star-225 {
+  top: 226px;
+  left: 1524px;
+  animation: 2s flickr -2s infinite;
+}
+.star-226 {
+  top: 179px;
+  left: 539px;
+  animation: 3s flickr -1s infinite;
+}
+.star-227 {
+  top: 490px;
+  left: 529px;
+  animation: 3s flickr 0s infinite;
+}
+.star-228 {
+  top: 580px;
+  left: 219px;
+  animation: 3s flickr -1s infinite;
+}
+.star-229 {
+  top: 458px;
+  left: 879px;
+  animation: 4s flickr -1s infinite;
+}
+.star-230 {
+  top: 513px;
+  left: 1233px;
+  animation: 3s flickr -1s infinite;
+}
+.star-231 {
+  top: 184px;
+  left: 1785px;
+  animation: 4s flickr 0s infinite;
+}
+.star-232 {
+  top: 122px;
+  left: 538px;
+  animation: 4s flickr -1s infinite;
+}
+.star-233 {
+  top: 504px;
+  left: 60px;
+  animation: 3s flickr -1s infinite;
+}
+.star-234 {
+  top: 263px;
+  left: 1411px;
+  animation: 3s flickr 0s infinite;
+}
+.star-235 {
+  top: 469px;
+  left: 1896px;
+  animation: 3s flickr -1s infinite;
+}
+.star-236 {
+  top: 361px;
+  left: 465px;
+  animation: 4s flickr -1s infinite;
+}
+.star-237 {
+  top: 493px;
+  left: 1905px;
+  animation: 4s flickr 0s infinite;
+}
+.star-238 {
+  top: 261px;
+  left: 1814px;
+  animation: 3s flickr -2s infinite;
+}
+.star-239 {
+  top: 186px;
+  left: 787px;
+  animation: 3s flickr -1s infinite;
+}
+.star-240 {
+  top: 135px;
+  left: 910px;
+  animation: 3s flickr -2s infinite;
+}
+.star-241 {
+  top: 167px;
+  left: 1352px;
+  animation: 4s flickr -1s infinite;
+}
+.star-242 {
+  top: 100px;
+  left: 759px;
+  animation: 4s flickr -1s infinite;
+}
+.star-243 {
+  top: 130px;
+  left: 334px;
+  animation: 3s flickr -1s infinite;
+}
+.star-244 {
+  top: 518px;
+  left: 940px;
+  animation: 4s flickr -1s infinite;
+}
+.star-245 {
+  top: 461px;
+  left: 639px;
+  animation: 2s flickr 0s infinite;
+}
+.star-246 {
+  top: 391px;
+  left: 1426px;
+  animation: 3s flickr 0s infinite;
+}
+.star-247 {
+  top: 76px;
+  left: 344px;
+  animation: 4s flickr -1s infinite;
+}
+.star-248 {
+  top: 184px;
+  left: 494px;
+  animation: 4s flickr -1s infinite;
+}
+.star-249 {
+  top: 544px;
+  left: 939px;
+  animation: 3s flickr -1s infinite;
+}
+.star-250 {
+  top: 302px;
+  left: 963px;
+  animation: 4s flickr -1s infinite;
+}
+.star-251 {
+  top: 492px;
+  left: 871px;
+  animation: 4s flickr -1s infinite;
+}
+.star-252 {
+  top: 497px;
+  left: 1364px;
+  animation: 2s flickr 0s infinite;
+}
+.star-253 {
+  top: 175px;
+  left: 1040px;
+  animation: 4s flickr -2s infinite;
+}
+.star-254 {
+  top: 12px;
+  left: 555px;
+  animation: 3s flickr -2s infinite;
+}
+.star-255 {
+  top: 463px;
+  left: 841px;
+  animation: 3s flickr 0s infinite;
+}
+.star-256 {
+  top: 70px;
+  left: 722px;
+  animation: 2s flickr 0s infinite;
+}
+.star-257 {
+  top: 478px;
+  left: 1603px;
+  animation: 3s flickr -1s infinite;
+}
+.star-258 {
+  top: 576px;
+  left: 1012px;
+  animation: 3s flickr -1s infinite;
+}
+.star-259 {
+  top: 134px;
+  left: 364px;
+  animation: 3s flickr -2s infinite;
+}
+.star-260 {
+  top: 411px;
+  left: 1105px;
+  animation: 4s flickr -1s infinite;
+}
+.star-261 {
+  top: 518px;
+  left: 1992px;
+  animation: 4s flickr -1s infinite;
+}
+.star-262 {
+  top: 36px;
+  left: 1638px;
+  animation: 4s flickr -1s infinite;
+}
+.star-263 {
+  top: 115px;
+  left: 1397px;
+  animation: 2s flickr -1s infinite;
+}
+.star-264 {
+  top: 174px;
+  left: 50px;
+  animation: 4s flickr 0s infinite;
+}
+.star-265 {
+  top: 344px;
+  left: 1376px;
+  animation: 4s flickr -2s infinite;
+}
+.star-266 {
+  top: 472px;
+  left: 1066px;
+  animation: 2s flickr 0s infinite;
+}
+.star-267 {
+  top: 259px;
+  left: 147px;
+  animation: 4s flickr -1s infinite;
+}
+.star-268 {
+  top: 520px;
+  left: 1668px;
+  animation: 3s flickr 0s infinite;
+}
+.star-269 {
+  top: 33px;
+  left: 1696px;
+  animation: 3s flickr -2s infinite;
+}
+.star-270 {
+  top: 443px;
+  left: 1439px;
+  animation: 3s flickr -2s infinite;
+}
+.star-271 {
+  top: 428px;
+  left: 24px;
+  animation: 3s flickr -1s infinite;
+}
+.star-272 {
+  top: 568px;
+  left: 326px;
+  animation: 2s flickr -2s infinite;
+}
+.star-273 {
+  top: 516px;
+  left: 46px;
+  animation: 4s flickr -1s infinite;
+}
+.star-274 {
+  top: 517px;
+  left: 227px;
+  animation: 3s flickr 0s infinite;
+}
+.star-275 {
+  top: 31px;
+  left: 1573px;
+  animation: 3s flickr 0s infinite;
+}
+.star-276 {
+  top: 573px;
+  left: 1941px;
+  animation: 3s flickr -1s infinite;
+}
+.star-277 {
+  top: 566px;
+  left: 1853px;
+  animation: 2s flickr 0s infinite;
+}
+.star-278 {
+  top: 248px;
+  left: 1889px;
+  animation: 3s flickr 0s infinite;
+}
+.star-279 {
+  top: 534px;
+  left: 13px;
+  animation: 3s flickr -1s infinite;
+}
+.star-280 {
+  top: 309px;
+  left: 1838px;
+  animation: 3s flickr -2s infinite;
+}
+.star-281 {
+  top: 504px;
+  left: 220px;
+  animation: 4s flickr -2s infinite;
+}
+.star-282 {
+  top: 159px;
+  left: 146px;
+  animation: 3s flickr -1s infinite;
+}
+.star-283 {
+  top: 15px;
+  left: 1015px;
+  animation: 2s flickr -1s infinite;
+}
+.star-284 {
+  top: 488px;
+  left: 1935px;
+  animation: 2s flickr 0s infinite;
+}
+.star-285 {
+  top: 272px;
+  left: 340px;
+  animation: 3s flickr -2s infinite;
+}
+.star-286 {
+  top: 314px;
+  left: 1176px;
+  animation: 2s flickr -1s infinite;
+}
+.star-287 {
+  top: 586px;
+  left: 427px;
+  animation: 3s flickr -1s infinite;
+}
+.star-288 {
+  top: 207px;
+  left: 1180px;
+  animation: 3s flickr -1s infinite;
+}
+.star-289 {
+  top: 312px;
+  left: 1548px;
+  animation: 3s flickr -1s infinite;
+}
+.star-290 {
+  top: 598px;
+  left: 1995px;
+  animation: 4s flickr -1s infinite;
+}
+.star-291 {
+  top: 131px;
+  left: 1876px;
+  animation: 3s flickr -2s infinite;
+}
+.star-292 {
+  top: 117px;
+  left: 17px;
+  animation: 4s flickr 0s infinite;
+}
+.star-293 {
+  top: 207px;
+  left: 1369px;
+  animation: 2s flickr 0s infinite;
+}
+.star-294 {
+  top: 447px;
+  left: 912px;
+  animation: 3s flickr -1s infinite;
+}
+.star-295 {
+  top: 87px;
+  left: 231px;
+  animation: 3s flickr -1s infinite;
+}
+.star-296 {
+  top: 493px;
+  left: 410px;
+  animation: 4s flickr -2s infinite;
+}
+.star-297 {
+  top: 136px;
+  left: 1007px;
+  animation: 4s flickr 0s infinite;
+}
+.star-298 {
+  top: 415px;
+  left: 1072px;
+  animation: 4s flickr -1s infinite;
+}
+.star-299 {
+  top: 47px;
+  left: 1450px;
+  animation: 3s flickr 0s infinite;
+}
+.shooting-star {
+  position: absolute;
+  top: -60px;
+  width: 120px;
+  height: 2px;
+  background: url(images/shooting-star.png) center center no-repeat;
+  background-size: 100% 100%;
+  transform: rotate(20deg);
+}
+.shooting-star-1 {
+  animation: 44s shooting-star 12.4s infinite;
+}
+.shooting-star-2 {
+  animation: 41s shooting-star 8.6s infinite;
+}
+.shooting-star-3 {
+  animation: 45s shooting-star 23.5s infinite;
+}
+.shooting-star-4 {
+  animation: 43s shooting-star 10s infinite;
+}
+.shooting-star-5 {
+  animation: 44s shooting-star 1.4s infinite;
+}
+.shooting-star-6 {
+  animation: 44s shooting-star 8.4s infinite;
+}
+.shooting-star-7 {
+  animation: 43s shooting-star 16.5s infinite;
+}
+.shooting-star-8 {
+  animation: 41s shooting-star 17.9s infinite;
+}
+.shooting-star-9 {
+  animation: 43s shooting-star 8.3s infinite;
+}
+.shooting-star-10 {
+  animation: 42s shooting-star 7.6s infinite;
+}
+.shooting-star-11 {
+  animation: 44s shooting-star 7.3s infinite;
+}
+.shooting-star-12 {
+  animation: 43s shooting-star 17.9s infinite;
+}
+.shooting-star-13 {
+  animation: 44s shooting-star 11.7s infinite;
+}
+.shooting-star-14 {
+  animation: 40s shooting-star 6.5s infinite;
+}
+.shooting-star-15 {
+  animation: 44s shooting-star 20.9s infinite;
+}
+.shooting-star-16 {
+  animation: 44s shooting-star 13.4s infinite;
+}
+.shooting-star-17 {
+  animation: 43s shooting-star 23.2s infinite;
+}
+.shooting-star-18 {
+  animation: 44s shooting-star 24.3s infinite;
+}
+.shooting-star-19 {
+  animation: 43s shooting-star 20.7s infinite;
+}
+.shooting-star-20 {
+  animation: 44s shooting-star 12s infinite;
+}
+.shooting-star-21 {
+  animation: 41s shooting-star 15.1s infinite;
+}
+.shooting-star-22 {
+  animation: 43s shooting-star 17s infinite;
+}
+.shooting-star-23 {
+  animation: 41s shooting-star 17.1s infinite;
+}
+.shooting-star-24 {
+  animation: 41s shooting-star 7s infinite;
+}
+.shooting-star-25 {
+  animation: 41s shooting-star 10s infinite;
+}
+.shooting-star-26 {
+  animation: 40s shooting-star 16.8s infinite;
+}
+.shooting-star-27 {
+  animation: 45s shooting-star 2.8s infinite;
+}
+.shooting-star-28 {
+  animation: 42s shooting-star 23.2s infinite;
+}
+.shooting-star-29 {
+  animation: 42s shooting-star 13.8s infinite;
+}
+.shooting-star-30 {
+  animation: 41s shooting-star 13.3s infinite;
+}
+.shooting-star-31 {
+  animation: 45s shooting-star 12.3s infinite;
+}
+.shooting-star-32 {
+  animation: 44s shooting-star 3.1s infinite;
+}
+.shooting-star-33 {
+  animation: 41s shooting-star 11.7s infinite;
+}
+.shooting-star-34 {
+  animation: 44s shooting-star 16.8s infinite;
+}
+.shooting-star-35 {
+  animation: 44s shooting-star 5.2s infinite;
+}
+.shooting-star-36 {
+  animation: 44s shooting-star 12.4s infinite;
+}
+.shooting-star-37 {
+  animation: 41s shooting-star 9.9s infinite;
+}
+.shooting-star-38 {
+  animation: 45s shooting-star 9.6s infinite;
+}
+.shooting-star-39 {
+  animation: 43s shooting-star 7.1s infinite;
+}
+.shooting-star-40 {
+  animation: 45s shooting-star 22.3s infinite;
+}
+.shooting-star-41 {
+  animation: 44s shooting-star 9.9s infinite;
+}
+.shooting-star-42 {
+  animation: 44s shooting-star 21s infinite;
+}
+.shooting-star-43 {
+  animation: 41s shooting-star 9.5s infinite;
+}
+.shooting-star-44 {
+  animation: 40s shooting-star 12.5s infinite;
+}
+.shooting-star-45 {
+  animation: 40s shooting-star 10.7s infinite;
+}
+.shooting-star-46 {
+  animation: 41s shooting-star 22.7s infinite;
+}
+.shooting-star-47 {
+  animation: 41s shooting-star 2.6s infinite;
+}
+.shooting-star-48 {
+  animation: 44s shooting-star 15.2s infinite;
+}
+.shooting-star-49 {
+  animation: 43s shooting-star 18.9s infinite;
+}
+.shooting-star-50 {
+  animation: 44s shooting-star 3.2s infinite;
+}
+.shooting-star-51 {
+  animation: 44s shooting-star 11.7s infinite;
+}
+.shooting-star-52 {
+  animation: 44s shooting-star 7.1s infinite;
+}
+.shooting-star-53 {
+  animation: 40s shooting-star 7.5s infinite;
+}
+.shooting-star-54 {
+  animation: 41s shooting-star 6.3s infinite;
+}
+.shooting-star-55 {
+  animation: 44s shooting-star 0.6s infinite;
+}
+.shooting-star-56 {
+  animation: 42s shooting-star 24s infinite;
+}
+.shooting-star-57 {
+  animation: 43s shooting-star 21.6s infinite;
+}
+.shooting-star-58 {
+  animation: 43s shooting-star 23.4s infinite;
+}
+.shooting-star-59 {
+  animation: 41s shooting-star 12.1s infinite;
+}
+.shooting-star-60 {
+  animation: 41s shooting-star 19s infinite;
+}
+.shooting-star-61 {
+  animation: 42s shooting-star 12.6s infinite;
+}
+.shooting-star-62 {
+  animation: 41s shooting-star 19.8s infinite;
+}
+.shooting-star-63 {
+  animation: 43s shooting-star 21s infinite;
+}
+.shooting-star-64 {
+  animation: 41s shooting-star 24.2s infinite;
+}
+.shooting-star-65 {
+  animation: 42s shooting-star 23.1s infinite;
+}
+.shooting-star-66 {
+  animation: 44s shooting-star 23.2s infinite;
+}
+.shooting-star-67 {
+  animation: 41s shooting-star 12s infinite;
+}
+.shooting-star-68 {
+  animation: 40s shooting-star 12.5s infinite;
+}
+.shooting-star-69 {
+  animation: 44s shooting-star 5.9s infinite;
+}
+.shooting-star-70 {
+  animation: 44s shooting-star 3s infinite;
+}
+.shooting-star-71 {
+  animation: 44s shooting-star 1.8s infinite;
+}
+.shooting-star-72 {
+  animation: 44s shooting-star 12.8s infinite;
+}
+.shooting-star-73 {
+  animation: 42s shooting-star 14.5s infinite;
+}
+.shooting-star-74 {
+  animation: 44s shooting-star 9.8s infinite;
+}
+.shooting-star-75 {
+  animation: 42s shooting-star 11.1s infinite;
+}
+.shooting-star-76 {
+  animation: 44s shooting-star 10.6s infinite;
+}
+.shooting-star-77 {
+  animation: 42s shooting-star 7.1s infinite;
+}
+.shooting-star-78 {
+  animation: 41s shooting-star 22.3s infinite;
+}
+.shooting-star-79 {
+  animation: 42s shooting-star 15.8s infinite;
+}
+.shooting-star-80 {
+  animation: 44s shooting-star 16s infinite;
+}
+.shooting-star-81 {
+  animation: 45s shooting-star 20.1s infinite;
+}
+.shooting-star-82 {
+  animation: 44s shooting-star 1.6s infinite;
+}
+.shooting-star-83 {
+  animation: 41s shooting-star 10.2s infinite;
+}
+.shooting-star-84 {
+  animation: 43s shooting-star 8.7s infinite;
+}
+.shooting-star-85 {
+  animation: 41s shooting-star 1.7s infinite;
+}
+.shooting-star-86 {
+  animation: 40s shooting-star 23.4s infinite;
+}
+.shooting-star-87 {
+  animation: 44s shooting-star 3.9s infinite;
+}
+.shooting-star-88 {
+  animation: 41s shooting-star 1.3s infinite;
+}
+.shooting-star-89 {
+  animation: 41s shooting-star 0.6s infinite;
+}
+.shooting-star-90 {
+  animation: 43s shooting-star 19.9s infinite;
+}
+.shooting-star-91 {
+  animation: 42s shooting-star 2.3s infinite;
+}
+.shooting-star-92 {
+  animation: 44s shooting-star 11.4s infinite;
+}
+.shooting-star-93 {
+  animation: 42s shooting-star 5.3s infinite;
+}
+.shooting-star-94 {
+  animation: 44s shooting-star 1.2s infinite;
+}
+.shooting-star-95 {
+  animation: 44s shooting-star 1.3s infinite;
+}
+.shooting-star-96 {
+  animation: 45s shooting-star 6s infinite;
+}
+.shooting-star-97 {
+  animation: 40s shooting-star 11.7s infinite;
+}
+.shooting-star-98 {
+  animation: 42s shooting-star 5.7s infinite;
+}
+.shooting-star-99 {
+  animation: 43s shooting-star 10.2s infinite;
+}
+@keyframes flickr {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+@keyframes shooting-star {
+  0% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotate(20deg);
+  }
+  10%,
+  100% {
+    opacity: 0;
+    transform: translate3d(951px, 264px, 0) rotate(20deg);
+  }
+}

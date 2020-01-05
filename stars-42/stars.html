@@ -1,0 +1,29 @@
+<DOCTYPE html>
+<html>
+    <head>
+	    <title>stars</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./stars.css">
+	</head>
+	<body>
+	    <div class="frame">
+		    <div class="stage"></div>
+		</div>
+	    <script>
+		    let stage = document.querySelector('.stage');
+			let strStar = '';
+			// 创建 300 个 div，用作星星
+			for(let i = 0; i < 4000; i++){
+			    strStar += '<div class="star star-'+(i+1)+'"></div>';
+			}
+			for(let i = 0; i < 200; i++){
+			    strStar += '<div class="shooting-star shooting-star-'+(i+1)+'"></div>';
+			}
+			stage.innerHTML = strStar;
+			var shootStar = document.querySelectorAll('.shooting-star');
+			for(let i = 0; i < shootStar.length; i++){
+			    shootStar[i].style.left = Math.random()* document.documentElement.clientWidth + 'px';
+			}
+		</script>
+	</body>
+</html>
