@@ -245,7 +245,7 @@ for(let i = 0; i < 4000; i++){
 // 用函数实现流星在星空中高度随机分布
 .showShoot (@index) when (@index < @numberOfShootingStars){
     .shooting-star-@{index}{
-		animation: ~"`Math.round(Math.random()*5+40)`s" shooting-star ~"`Math.round(Math.random()*250)/10`s" infinite;
+		animation: ~"`Math.round(Math.random()*5+30)`s" shooting-star ~"`Math.round(Math.random()*250)/10`s" infinite;
 	}
 	.showShoot(@index+1);
 }
@@ -259,7 +259,7 @@ for(let i = 0; i < 200; i++){
 }
 var shootStar = document.querySelectorAll('.shooting-star');
 for(let i = 0; i < shootStar.length; i++){
-	shootStar[i].style.left = Math.random()* document.documentElement.clientWidth + 'px';
+	shootStar[i].style.left = Math.random()* 600 + 'px';
 }
 ```
 
@@ -275,7 +275,7 @@ for(let i = 0; i < shootStar.length; i++){
 	}
 	10%, 100%{
 	    opacity: 0;
-	    transform: translate3d(951px, 264px, 0) rotate(20deg);
+	    transform: translate3d(851px, 364px, 0) rotate(20deg);
 	}
 }
 ```
