@@ -182,7 +182,7 @@ animation: ~"`Math.round(Math.random()*5+20)`s" shooting-star ~"`Math.round(Math
 
 ![img](https://github.com/cao-lianhui/CSS100day/blob/master/stars-42/images/shooting-star2.gif)
 
-先改变类名 frame 和 stage 的样式，只要是改变高度和宽度，还有 left top 值，如下所示
+先改变类名 frame 和 stage 的样式，主要是改变高度和宽度，还有 left top 值，如下所示
 
 ```
 .frame{
