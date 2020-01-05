@@ -1,4 +1,4 @@
-# 1.首先是 Html 和 一些 Js 代码的实现，主要看注释就行
+### 1.首先是 Html 和 一些 Js 代码的实现，主要看注释就行
 
 Html 代码:
 
@@ -27,7 +27,7 @@ stage.innerHTML = strStar;
 
 Css 代码：
 
-# 2.先画正方形的白色盒子居中显示
+### 2.先画正方形的白色盒子居中显示
 
 ```
 .frame{
@@ -46,7 +46,7 @@ Css 代码：
 }
 ```
 
-# 3.白色盒子中间通过渐变画实现接近夜色的背景，如下图
+### 3.白色盒子中间通过渐变画实现接近夜色的背景，如下图
 
 ![img](https://github.com/cao-lianhui/CSS100day/blob/master/stars-42/images/stars1.png)
 
@@ -66,7 +66,7 @@ Css 代码：
 }
 ```
 
-# 4.实现星星样式和在星空上随机分布
+### 4.实现星星样式和在星空上随机分布
 
 ```
 .star{
@@ -98,7 +98,7 @@ Css 代码：
 
 ![img](https://github.com/cao-lianhui/CSS100day/blob/master/stars-42/images/stars2.png)
 
-# 5.把流星图加入页面中，并用函数实现高度随机分布
+### 5.把流星图加入页面中，并用函数实现高度随机分布
 
 ```
 // 加入流星图
@@ -133,7 +133,7 @@ Css 代码：
 
 的值为 50%，恢复到只有星星的夜空
 
-# 6.接下来用 @keyframes 实现星星闪烁和流星划过夜景的动画
+### 6.接下来用 @keyframes 实现星星闪烁和流星划过夜景的动画
 
 ```
 // 实现星星在夜空中闪烁的动画
@@ -179,7 +179,7 @@ animation: ~"`Math.round(Math.random()*5+20)`s" shooting-star ~"`Math.round(Math
 ![img](https://github.com/cao-lianhui/CSS100day/blob/master/stars-42/images/shooting-star.gif)
 
 
-# 接下来可以扩展下流星效果，把流星效果扩展成整个页面的，如下图所示
+### 接下来可以扩展下流星效果，把流星效果扩展成整个页面的，如下图所示
 
 ![img](https://github.com/cao-lianhui/CSS100day/blob/master/stars-42/images/shooting-star2.gif)
 
@@ -282,6 +282,6 @@ for(let i = 0; i < shootStar.length; i++){
 
 大概的流程就是这些啦，有不懂的主要去看源码哦o(*￣▽￣*)ブ
 
-# 下面是原网站效果
+### 下面是原网站效果
 
 [原网站效果](https://100dayscss.com/?dayIndex=41)
