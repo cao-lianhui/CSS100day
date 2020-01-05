@@ -96,7 +96,7 @@ width: 50 px
 还有就是这几种拼接方式不能相互替换，否则会报错：ParseError: Unrecognised input in....
 ```
 
-#### 5. less 里面使用 Js 的 Math.random() 函数
+#### 5. Less 里面使用 Js 的 Math 对象方法
 
 ```
 // 该问题在文件 stars-42 里遇到，
@@ -107,4 +107,4 @@ left: ~"`Math.round((Math.random()*20+20)/10)`px"
 @num: `Math.round((Math.random()*20+20)/10)`;
 left: ~"@{number}px";
 ```
-大概先这些，后续接触了会持续更新哦，对文件中代码有更好建议的欢迎 star (*￣︶￣)
+大概先这些，后续接触了会持续更新哦，对文件中代码有更好建议的欢迎指出 (*￣︶￣)
