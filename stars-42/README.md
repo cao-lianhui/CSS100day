@@ -76,7 +76,6 @@ Css 代码：
 	border-radius: 1px;
 	background: #fff;
 }
-@test: 280;
 // 用函数实现星星随机分布
 .showStar (@index) when (@index < @numberOfStars){
     // less 里 css 类名拼接方式
@@ -183,7 +182,7 @@ animation: ~"`Math.round(Math.random()*5+20)`s" shooting-star ~"`Math.round(Math
 
 ![img](https://github.com/cao-lianhui/CSS100day/blob/master/stars-42/images/shooting-star2.gif)
 
-先改变类名 frame 和 stage 的样式，只要是改变高度和宽度，还有 left top 值，如下图
+先改变类名 frame 和 stage 的样式，只要是改变高度和宽度，还有 left top 值，如下所示
 
 ```
 .frame{
