@@ -115,7 +115,7 @@ Css 代码：
 // 用函数实现流星在星空中高度随机分布
 .showShoot (@index) when (@index < @numberOfShootingStars){
     .shooting-star-@{index}{
-	    // 高度随机分布在 30px - 130px 之间
+	    // 高度随机分布在 -30px ~ 70px 之间
 	    top: ~"`Math.random()*100 - 30`px";
 		
 	}
