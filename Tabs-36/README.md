@@ -199,37 +199,6 @@ input[type="radio"]:checked + .tab{
 ![img](https://github.com/cao-lianhui/CSS100day/blob/master/Tabs-36/images/tabs3.png)
 
 ```
-.star{
-    position: absolute;
-	width: 1px;
-	height: 1px;
-	border-radius: 1px;
-	background: #fff;
-}
-// 用函数实现星星随机分布
-.showStar (@index) when (@index < @numberOfStars){
-    // less 里 css 类名拼接方式
-	.star-@{index}{
-	    // 随机生成 top 和 left 的值，实现星星随机分布
-		// 注意这里需要用到 js 代码，采用 `` 字符的方式存放 js 代码
-		// 且 less 版本必须要在 3 以下、必须要在 3 以下、3 以下
-		@distance: `Math.round(Math.random() * 280)`;
-	    top: ~"@{distance}px";
-		left: ~"@{distance}px";
-	}
-	.showStar(@index+1);
-}
-// 函数调用
-.showStar(1);
-```
-
-效果如下图:
-
-![img](https://github.com/cao-lianhui/CSS100day/blob/master/stars-42/images/stars2.png)
-
-### 5.把流星图加入页面中，并用函数实现高度随机分布
-
-```
 .content{
 	position: absolute;
 	top: 40px;
@@ -267,7 +236,7 @@ input[type="radio"]:checked + .tab{
 
 接下来开始下一个要切换的步骤
 
-### 6.实现选项卡切换的效果
+### 5.实现选项卡切换的效果
 
 ```
 // 先默认实现显示第一个内容
