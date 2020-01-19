@@ -1,0 +1,85 @@
+body,html,h1{
+    margin: 0;
+	padding: 0;
+}
+body{
+    background: #fc9d99;
+}
+// 引入自定义字体
+@font-face{
+    font-family: '福字体'; // 名字自己定义就行
+	src: url('./HYXinHaiXingKaiW.ttf');
+}
+.fu-box{
+    width: 600px;
+	height: 500px;
+	margin: 100px auto 0;
+	text-align: center;
+	perspective: 1000px;
+	perspective-origin: 50% -200px;
+	h1{
+	    width: 100%;
+		height: 100%;
+		text-align: center;
+		font-family: '福字体';
+		font-size: 428px;
+		line-height: 500px;
+		color: rgb(237, 27, 36);
+		animation: rotate 2s ease-in-out alternate infinite;
+	}
+}
+@keyframes rotate{
+    from{
+	    transform: rotateY(-10deg);
+		// 给字体加阴影，制造立体的效果
+		// 下面这些颜色，是原来自己给背景设置渐变的时候取好的，
+		// 大家也可以自己尝试下别的颜色:）
+		text-shadow: 1px -1px rgb(211, 24, 32),
+		             2px -1px rgb(204, 23, 31),
+					 3px -2px rgb(190, 22, 29),
+					 4px -2px rgb(185, 21, 28),
+					 5px -3px rgb(175, 20, 26),
+					 6px -3px rgb(165, 19, 25),
+					 7px -4px rgb(155, 18, 24),
+					 8px -5px rgb(150, 17, 22),
+					 9px -6px rgb(145, 17, 22),
+					 10px -7px rgb(140, 16, 21),
+					 11px -8px rgb(135, 16, 21),
+					 12px -9px rgb(130, 15, 21),
+					 13px -10px rgb(125, 14, 19),
+					 14px -11px rgb(120, 14, 18),
+					 15px -12px rgb(115, 13, 17),
+					 16px -13px rgb(110, 13, 17),
+					 17px -14px rgb(105, 12, 16),
+					 18px -15px rgb(100, 11, 15),
+					 19px -16px rgb(95, 11, 14),
+					 20px -17px rgb(90, 11, 14),
+					 21px -18px rgb(85, 10, 13),
+					 22px -19px rgb(70, 8, 11);
+	}
+	to{
+	    transform: rotateY(10deg);
+		text-shadow: -1px -1px rgb(211, 24, 32),
+		             -2px -1px rgb(204, 23, 31),
+					 -3px -2px rgb(190, 22, 29),
+					 -4px -2px rgb(185, 21, 28),
+					 -5px -3px rgb(175, 20, 26),
+					 -6px -3px rgb(165, 19, 25),
+					 -7px -4px rgb(155, 18, 24),
+					 -8px -5px rgb(150, 17, 22),
+					 -9px -6px rgb(145, 17, 22),
+					 -10px -7px rgb(140, 16, 21),
+					 -11px -8px rgb(135, 16, 21),
+					 -12px -9px rgb(130, 15, 21),
+					 -13px -10px rgb(125, 14, 19),
+					 -14px -11px rgb(120, 14, 18),
+					 -15px -12px rgb(115, 13, 17),
+					 -16px -13px rgb(110, 13, 17),
+					 -17px -14px rgb(105, 12, 16),
+					 -18px -15px rgb(100, 11, 15),
+					 -19px -16px rgb(95, 11, 14),
+					 -20px -17px rgb(90, 11, 14),
+					 -21px -18px rgb(85, 10, 13),
+					 -22px -19px rgb(70, 8, 11);
+	}
+}

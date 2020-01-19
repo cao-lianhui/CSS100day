@@ -1,0 +1,41 @@
+body,
+html,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fc9d99;
+}
+@font-face {
+  font-family: '福字体';
+  src: url('HYXinHaiXingKaiW.ttf');
+}
+.fu-box {
+  width: 600px;
+  height: 500px;
+  margin: 100px auto 0;
+  text-align: center;
+  perspective: 1000px;
+  perspective-origin: 50% -200px;
+}
+.fu-box h1 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: '福字体';
+  font-size: 428px;
+  line-height: 500px;
+  color: #ed1b24;
+  animation: rotate 2s ease-in-out alternate infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotateY(-10deg);
+    text-shadow: 1px -1px #d31820, 2px -1px #cc171f, 3px -2px #be161d, 4px -2px #b9151c, 5px -3px #af141a, 6px -3px #a51319, 7px -4px #9b1218, 8px -5px #961116, 9px -6px #911116, 10px -7px #8c1015, 11px -8px #871015, 12px -9px #820f15, 13px -10px #7d0e13, 14px -11px #780e12, 15px -12px #730d11, 16px -13px #6e0d11, 17px -14px #690c10, 18px -15px #640b0f, 19px -16px #5f0b0e, 20px -17px #5a0b0e, 21px -18px #550a0d, 22px -19px #46080b;
+  }
+  to {
+    transform: rotateY(10deg);
+    text-shadow: -1px -1px #d31820, -2px -1px #cc171f, -3px -2px #be161d, -4px -2px #b9151c, -5px -3px #af141a, -6px -3px #a51319, -7px -4px #9b1218, -8px -5px #961116, -9px -6px #911116, -10px -7px #8c1015, -11px -8px #871015, -12px -9px #820f15, -13px -10px #7d0e13, -14px -11px #780e12, -15px -12px #730d11, -16px -13px #6e0d11, -17px -14px #690c10, -18px -15px #640b0f, -19px -16px #5f0b0e, -20px -17px #5a0b0e, -21px -18px #550a0d, -22px -19px #46080b;
+  }
+}
